@@ -1,4 +1,3 @@
--- Q3
 SELECT a.Country, 
 	   year(a.InvoiceDate) as Y, 
        count(DISTINCT b.CustomerID)/count(DISTINCT a.CustomerID) as RetentionRate
