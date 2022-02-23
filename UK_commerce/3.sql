@@ -3,11 +3,11 @@ SELECT a.Country,
        count(DISTINCT b.CustomerID)/count(DISTINCT a.CustomerID) as RetentionRate
 FROM (
 	SELECT DISTINCT Country, InvoiceDate, CustomerID
-	FROM challenge_final.final
+	FROM data.uk_commerce
     ) a
 LEFT JOIN (
 	SELECT DISTINCT Country, InvoiceDate, CustomerID
-    FROM challenge_final.final
+    FROM data.uk_commerce
     ) b
 ON year(a.InvoiceDate) = year(b.InvoiceDate) - 1
 AND a.Country = b.Country
