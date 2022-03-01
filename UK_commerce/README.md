@@ -19,7 +19,7 @@ UK commerce 데이터를 활용하여 e-commerce 서비스 내에서 산출 가�
 
 ## ⚡ 산출 지표
 1. 국가별, 상품별 **구매자 수 및 매출액**: [code](https://github.com/Jangwonjin/kaggle/blob/main/UK_commerce/1.sql)
-2. 특정 상품 구매자가 많이 구매한 상품: [code]
+2. 특정 상품 구매자가 많이 구매한 상품: [code](https://github.com/Jangwonjin/kaggle/blob/main/UK_commerce/2.sql)
 3. 국가별 **재구매율**: [code]
 4. 국가별 첫 구매 후 **이탈**하는 고객의 **비율**: [code]
 5. 판매 수량이 **20%이상 증가**한 상품 리스트 (연도기준): [code]
